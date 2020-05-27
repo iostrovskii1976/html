@@ -1,8 +1,194 @@
-<HTML>
-	<HEAD>
-		<TITLE> Наша 			первая страничка  		</TITLE>
-	</HEAD>
-	<BODY>
-		Самый простой 		HTML-документ
-	</BODY>
-</HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta name="google-site-verification" content="d9_3CaJ5VSAzef9hWNeUOIrjhU5GslInFugAk11qFd0" />
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<meta name="description" content="[*introtext*]" />
+	<base href="[(site_url)]" />
+	<link rel="icon" href="favicon.ico" type="image/x-icon" /> 
+	<link rel="shortcut icon" href="favicon.ico" />
+	<title>[*pagetitle*]  |  Контрольно-счетная палата Кировской области</title>
+	<link type="text/css" rel="stylesheet" href="default.css" />
+	<link type="text/css" rel="stylesheet" href="/_css/col_3.css" />
+	<link rel="stylesheet" type="text/css" href="/_css/style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!--<script type="text/javascript" src="_js/jquery.js"></script>-->
+	<script type="text/javascript" language="javascript">
+		function clearText(field)
+			{
+    		if (field.defaultValue == field.value) field.value = '';
+    		else if (field.value == '') field.value = field.defaultValue;
+			}
+	</script> 
+	<link href="ddsmoothmenu.css" type="text/css" rel="stylesheet" />
+    <!--<script src="_js/jquery.min.js" type="text/javascript"></script>-->
+    <script src="_js/ddsmoothmenu.js" type="text/javascript"></script> 
+	<script type="text/javascript">
+		ddsmoothmenu.init({
+		mainmenuid: "t_menu", //menu DIV id
+		orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+		classname: 'ddsmoothmenu', //class added to menu's outer DIV
+		//customtheme: ["#1c5a80", "#18374a"],
+		contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+		})
+	</script>	
+	<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+	<script>
+		!window.jQuery && document.write('<script src="/_js/jquery.js"><\/script>');
+	</script>
+	<script charset="utf-8" src="/_js/nav.js" type="text/javascript"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22103305-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+
+<body>
+    <div id="t_wrapper">
+      <div id="t_header">
+        <div id="site_title">
+			<h1><a style="margin-left: -8px; margin-top: -6px; height: 50px;" href="/">Экспериментальный сайт</a></h1>
+        </div>
+
+<!-- start of t_menu --> </div>
+<div class="ddsmoothmenu" id="t_menu">
+	<ul>
+		<li><a href="/">Пресс-центр</a>
+			<ul>
+				<li><a href="/press-center/news-ksp">Новости</a></li>
+				<li><a href="/press-center/news-smi">СМИ</a></li>
+			</ul>
+		</li>
+		<li><a href="/">О себе</a>
+			<ul>
+				<li><a href="/about/preds">Я</a></li>
+				<li><a href="/about/zam-preds">Проекты</a></li>
+					<ul>
+						<li><a href="/projec/projec_1">Проект 1</a></li>
+						<li><a href="/projec/projec_2">Проект 2</a></li>
+						<li><a href="/projec/html">HTML</a></li>
+						<li><a href="/projec/c">C#</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<br style="clear: left" />
+</div>
+<!-- end of t_menu --> </div>
+
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="_img/slider/ksp_960x350_01.jpg" alt="Старая Вятка" title="Старая Вятка" id="wows1_0"/></li>
+		<li><img src="_img/slider/ksp_960x350_02.jpg" alt="Речной порт" title="Речной порт" id="wows1_1"/></li>
+		<li><img src="_img/slider/ksp_960x350_03.jpg" alt="Панорама города" title="Панорама города" id="wows1_2"/></li>
+		<li><img src="_img/slider/ksp_960x350_04.jpg" alt="Тетральная площадь" title="Тетральная площадь" id="wows1_3"/></li>
+		<!-- <li><img src="_img/slider/ksp_960x350_05.jpg" alt="Контрольно-счетная палата" title="Контрольно-счетная палата" id="wows1_4"/></li> 	-->
+	</ul></div>
+</div>	 
+<br>
+<div id="content_top">
+	<div id="page_title"> Новости и события</div>
+<div id="search_box">
+	<div class="search">
+		<form method="post" id="formSearch" action="[~28~]">
+			<input type="hidden" name="advsearch" value="oneword" />
+			<input type="hidden" name="sub" value="Найти" />
+			<input type="text" value="Запрос для поиска..." name="search" size="10" id="searchfield" title="searchfield" onfocus="clearText(this)" onblur="clearText(this)" />
+			<input type="submit" name="Search" value="" id="searchbutton" title="Search" />
+		</form>
+	</div>
+</div>
+	<div class="cleaner"></div>
+</div>  
+	<div id="no_sidebar">
+		<div id="pageContent">
+			<p>Таким образом реализация намеченных плановых заданий позволяет оценить значение новых предложений. С другой стороны рамки и место обучения кадров способствует подготовки и реализации модели развития. Не следует, однако забывать, что дальнейшее развитие различных форм деятельности способствует подготовки и реализации форм развития.</p>
+			<p>Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p>
+			<p>Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</p>
+			<div class="archive"><a title="Новости и события" href="news">Новости и события, опубликованные ранее  &rarr;</a></div>
+		</div>
+	</div>
+        <div class="cleaner h60"></div>
+	<div id="t_content">
+        	<div class="cleaner"></div>
+	</div> <!-- end of content -->
+    <div id="to_sidebar">
+
+    </div> <!-- end of sidebar -->
+    <div class="cleaner"></div>
+
+    
+<div id="t_bottom">
+	<h5>Полезные ссылки:</h5>
+    	<div class="col_4 col_f">
+        	<h5>    </h5>
+            <ul class="footer_link">
+            	<li>
+					<a href="http://www.portalkso.ru/" target="_blank"><img class="png" src="_img/partners-logo/baner_kso.png" alt="Портал контрольно-счетных органов РФ" /></a><br>
+				</li>
+                <li>
+                	<a href="http://www.ach.gov.ru" target="_blank"><img class="png" src="_img/partners-logo/baner_cp.png" alt="Счетная палата РФ" /></a><br>
+				</li>
+                <li>
+                	<a href="http://r43.rosfinnadzor.ru/" target="_blank"><img class="png" src="_img/partners-logo/baner_fin_nadzor.png" alt="ТУ Росфиннадзора в Кировской области" /></a><br>
+                </li>
+			</ul>
+        </div>
+        <div class="col_4">
+        	<h5>   </h5>
+            <ul class="footer_link">
+            	<li>
+                	<a href="http://www.zsko.ru/" target="_blank"><img class="png" src="_img/partners-logo/banner_ozs.jpg" alt="Законодательное собрание Кировской области" /></a><br>
+            	</li>
+                <li>
+                	<a href="http://www.kirovreg.ru" target="_blank"><img class="png" src="_img/partners-logo/banner_ako.gif" alt="Правительство Кировской области" /></a><br>
+                </li>
+                <li>
+                	<a href="http://www.minfin.kirov.ru" target="_blank"><img class="png" src="_img/partners-logo/baner_minfin.png" alt="Министерство финансов Кировской области" /></a><br>
+                </li>
+			</ul>
+        </div>
+        <div class="col_4">
+        	<h5>   </h5>
+            <ul class="footer_link">
+            	<li>
+                	<a href="http://www.prokuratura-kirov.ru/" target="_blank"><img class="png" src="_img/partners-logo/baner_prokuratura2.png" alt="Прокуратура Кировской области" /></a><br>
+            	</li>
+            	<li>
+                	<a href="http://onf.ru/" target="_blank"><img class="png" src="_img/partners-logo/narod-front.gif" alt="Общероссийский Народный Фронт" /></a><br>
+            	</li>
+            	<li>
+                	<a href="http://www.pfo.ru/" target="_blank"><img class="png" src="_img/partners-logo/banner_pfo.jpg" alt="Полномочный представитель Президента Российской Федерации в Приволжском федеральном округе"/></a><br>
+            	</li>
+			</ul>
+        </div>
+        <div class="col_4 col_l rmc">
+        	<h5>      </h5>
+            <ul class="footer_link">
+            	<li>
+                	<a href="http://kirov.roskazna.ru/" target="_blank"><img class="png" src="_img/partners-logo/baner_kazna.png" alt="Управление Федерального казначейства по Кировской области" /></a><br>
+            	</li>
+            	<li>
+                	<a href="http://opko43.ru/" target="_blank"><img class="png" src="_img/partners-logo/banner_opko.gif" alt="Общественная палата Кировской области" /></a><br>
+            	</li>
+            	<li>
+                	<a href="http://pravo.gov.ru" target="_blank"><img class="png" src="_img/partners-logo/cssi.png" alt="Официальный интернет-портал правовой информации" /></a><br>
+            	</li>
+			</ul>
+        </div>
+        <div class="cleaner"></div>
+    </div>
+
+<div id="t_footer">	© 2020 Тестовый сайт</div>
+</div>
+
+</body>
+</html>
