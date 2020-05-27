@@ -1,0 +1,89 @@
+
+#head, #logo, #sidebar {
+	display: none;
+}
+
+div#pageContent div.print {
+	display: none;
+}
+
+body {
+	width: 21cm;
+}
+
+div#subTitle {
+	font-size: 70%;
+	font-family:Tahoma,Geneva,sans-serif;
+	padding: 0.2cm 0 0.2cm 0;
+	border-bottom: 0.5mm solid black;
+}
+
+div#pageContent h1, div#pageContent h2, div#pageContent h3 {
+	font-size: 140%;
+	line-height: 120%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: normal;
+}
+
+div#pageContent h2 {
+	font-size: 120%;
+}
+
+div#pageContent h3 {
+	font-size: 110%;
+	font-style: oblique;
+}
+
+
+
+div#pageContent div.introText {
+	display: none;
+}
+
+div#pageContent div.SignatureTop, div.SignatureBottom {
+	font-family:Tahoma,Geneva,sans-serif;
+	font-size:90%;
+	margin:0 0 1cm 16cm;		
+}
+
+div#pageContent div.SignatureBottom {
+	margin:0 0 1cm 16cm;	
+}
+
+div#pageContent table {
+	font-size:90%;
+	font-family:Tahoma,Geneva,sans-serif;
+	border-collapse:collapse;
+	vertical-align: top;
+}
+
+div#pageContent table td {
+	border: 0.5mm solid black;
+	
+}
+
+div#pageContent p.listed {
+	width:80%;
+	border-left:0.5mm solid black;
+	padding:0 0 0 5mm;
+}
+
+div#pageContent p.listed span {
+	color:#910000;
+	display:block;
+	font-style:oblique;
+}
+
+div#pageContent p img.predsedatel {
+	float:right;
+	border:3mm solid #f3f3f3;
+	margin:0 0 5mm 5mm;
+}
+
+div#foot {
+	font-size: 70%;
+	font-family:Tahoma,Geneva,sans-serif;
+	margin: 1cm 0 0 0;
+	padding: 0.2cm 0 0.2cm 0;
+	border-top: 0.5mm solid black;
+}
